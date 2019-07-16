@@ -1,0 +1,35 @@
+{
+  "name": "introduction-to-sql",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/joi": "^14.3.3",
+    "@types/mongoose": "^5.5.8",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.6.4",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/express": "^4.17.0",
+    "@types/http-errors": "^1.6.1",
+    "@types/jest": "^24.0.15",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^12.6.2",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
